@@ -16,7 +16,7 @@ namespace Custom500s
         public override string Name { get; set; } = "SCP-330";
         public override string Description { get; set; } = "Pills that give a random effect after consuming.";
         public override float Weight { get; set; } = 1f;
-        public override SpawnProperties SpawnProperties { get; set; } = new SpawnProperties
+        public override SpawnProperties SpawnProperties { get; set; } = new SpawnProperties()
         {
             DynamicSpawnPoints = new List<DynamicSpawnPoint>()
             {
